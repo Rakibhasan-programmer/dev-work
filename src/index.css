@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .payment-title {
+      @apply font-medium text-gray-900 select-none;
+    }
+    .payment-text {
+      @apply text-base font-normal text-zinc-400 select-none;
+    }
+    .payment-btn {
+      @apply bg-[#47C363] hover:bg-[#3da856] px-6 py-2 rounded-lg text-white font-semibold;
+    }
+    .payment-alert {
+      @apply text-[#8756EF] font-bold text-xs rounded-md bg-[#D9D9D9] px-8 py-4
+    }
+  }
